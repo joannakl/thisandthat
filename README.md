@@ -1,3 +1,1 @@
----
----
-This is a source repository for the site [This and That]({{ site.url }}). 
+This is a source repository for the site https://joannakl.github.io/thisandthat/ . 
