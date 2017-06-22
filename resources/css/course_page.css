@@ -1,0 +1,148 @@
+/* Run 
+ *    lessc styles.less styles.css
+ * to generate the css file.
+ */
+/* Color schemes website:
+ *     http://colorschemedesigner.com  
+ */
+/*
+Color scheme: 
+*/
+html {
+  margin: 0;
+  height: 100%;
+}
+body {
+  margin: 0em;
+  padding: 0px;
+  border: 0px;
+}
+.hidden {
+  display: none;
+}
+p {
+  margin: 0px;
+  padding: 2px;
+  color: #000000;
+}
+a {
+  color: #000033;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  margin: 1em 1em 0.25em 0em;
+  padding: 2px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+h2 {
+  margin: 0.75em 1em 0.25em 0em;
+  padding: 2px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+h3 {
+  margin: 0.5em 1em 0.25em 0em;
+  padding: 2px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+h4 {
+  margin: 0.5em 1em 0.25em 0em;
+  padding: 2px;
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+/******************************************/
+header {
+  background: #e6e6e6;
+  padding: 2em 1em 2em 1em;
+  margin: 0;
+  color: #4d4d4d;
+}
+header h1 {
+  margin: 0em;
+  padding: 0px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+/******************************************/
+aside {
+  background: #e6e6e6;
+  width: 20%;
+  float: right;
+  padding: 0.25em 0.25em 0.25em 0.5em;
+  font-size: 0.8em;
+}
+aside h1 {
+  margin: 0.25em 0.25em 0em 0em;
+}
+@media (max-width: 700px), (max-device-width: 720px) {
+  aside {
+    display: none;
+  }
+}
+/******************************************/
+main {
+  background: #ffffff;
+  padding: 1em;
+}
+main hr {
+  margin: 0;
+  padding: 0;
+  color: #4d4d4d;
+  background-color: #4d4d4d;
+  height: 3px;
+  width: 400px;
+  text-align: left;
+}
+main p {
+  margin: 0px;
+  padding: 2px;
+  color: #000000;
+}
+main p.hang {
+  padding: 2px 2px 2px 40px;
+  text-indent: -32px;
+}
+main .emph {
+  color: #4d4d4d;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+main .name {
+  color: #4d4d4d;
+  font-variant: small-caps;
+}
+td {
+  padding: 1em;
+  vertical-align: top;
+}
+/******************************************/
+footer {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  background: #e6e6e6;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.footerlinks {
+  margin: 0;
+  padding: 0.8em 0 0.8em 0.8em;
+  float: left;
+  width: 56%;
+}
+.license {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 38%;
+}

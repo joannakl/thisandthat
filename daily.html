@@ -1,0 +1,41 @@
+---
+layout: default 
+days: 
+    - "01"
+  #  - "02"
+  #  - "03"
+  #  - "04" 
+  #  - "05"
+---
+
+<b>GTG</b> = <em>{{ site.book_required }}</em> {{ site.book_required_author }} <br>
+<b>ODSA</b> = <a href="{{ site.book_opt_1_link }}" target="_blank">{{ site.book_opt_1 }}</a> <br><br>
+
+<div class="titles">
+    <div class="column_date">
+        Date
+    </div>
+    
+    <div class="column_materials">
+        Material Covered, Notes, Handouts and Links 
+    </div>
+    
+    <div class="column_assign">
+        Readings, Assignments, Homework
+    </div>
+</div>  
+
+{% for i in page.days reversed %}
+    {% assign file_name = "daily/" | append:  i  | append: ".html" %}
+    {% include   {{ file_name }} %}
+     
+{% endfor %}
+
+
+
+<br>
+<br>
+        
+        
+        
+        
