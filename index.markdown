@@ -5,7 +5,7 @@ layout: default
 # Eclipse 
 --- 
 
-- [Using Git in Eclipse]({{ site.baseurl }}gitForEclipse.html) 
+- [Using Git in Eclipse]({{ site.baseurl }}/gitForEclipse.html) 
 
 
 # Data Structures
