@@ -10,7 +10,7 @@ Here are just some quick points on how to get started with using the EGit plugin
 
 **Help documentation for EGit**: 
 
-In Eclipse go to => *Help* &#9656; Help  Contents  &#160;&#9656; EGit Documentation. 
+In Eclipse go to *Help* &#8594; *Help  Contents*  &#8594; *EGit Documentation*. 
 
 <br>
 <br>
