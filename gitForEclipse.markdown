@@ -42,7 +42,7 @@ You can read more about configuring git in general at [Getting Started - First T
 
 Eclipse keeps a lot of files in addition to the source code files for the project that we are working on. We want a different location for the repositories that should contain the source code (and optional README files) only. 
 
-To set this up, go to *Windows*  &#8594; *Preferences* &#8594; *Team* &#8594; *Git* and change the directory name for *Default repository folder". Some good locations might be your home directory, a directory in which you store course related materials, etc. In my case, it is `/home/asia/Data/NYU_Teaching/csci102/git` (in Linux, `/home/asia` is my home directory). 
+To set this up, go to *Windows*  &#8594; *Preferences* &#8594; *Team* &#8594; *Git* and change the directory name for *Default repository folder*. Some good locations might be your home directory, a directory in which you store course related materials, etc. In my case, it is `/home/asia/Data/NYU_Teaching/csci102/git` (in Linux, `/home/asia` is my home directory). 
 
  
  
