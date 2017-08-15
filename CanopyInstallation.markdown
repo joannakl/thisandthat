@@ -61,6 +61,7 @@ the package in the list of results and click *Install* (the button on a  blue ba
     name of the file as `test1.py` - note that the extension **`.py`** is very important here!
     - Paste the following text as the content of the file. Make sure that you copy the text
     exactly
+    
     ```python
     import matplotlib.pyplot as plt
     from numpy import  arange, sin, cos, pi
