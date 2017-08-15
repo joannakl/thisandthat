@@ -151,7 +151,7 @@ footer {
 code {
   margin: 0px;
   padding: 0px;
-  font-size: 1.25em;
+  /*font-size:1.25em;*/
 }
 figure {
   display: inline-block;
@@ -165,7 +165,7 @@ figure {
 .highlight {
   margin: 0px;
   padding: 0.5em;
-  background-color: #d6d6d6;
+  background-color: #f8f8f2;
 }
 .bash {
   color: #AAAAAA;
