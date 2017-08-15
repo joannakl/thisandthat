@@ -10,24 +10,23 @@ installation of hundreds of scientific Python packages.
 
 Here is how to get it up and running. 
 
-# Installation on Windows 
+# Installation on Windows/Mac/Linux 
 
-These installation instructions have been tested on Windows 10, but should work
-also for other versions of the Windows operating system.
+These installation instructions have been tested on Windows 10, and Ubuntu 16.04, 
+but should work also for other operating systems.
 
 1. Go to the website for Canopy: [https://www.enthought.com/products/canopy/](https://www.enthought.com/products/canopy/)  
 and select Canopy from the *Downloads* list (at the very top of the page) or go 
 directly to the [*Downloads*](https://store.enthought.com/downloads/) page.
 
 2. Select the version with the highest number for the operating system that you are
-using (should be Windows if you are looking at this set of instructions). 
-Unless you are certain that you have an older machine still running a 32 bit 
-system, you should pick Windows[64-bit]. Currently the highest version of Canopy is 3.5. 
+using. Unless you are certain that you have an older machine still running a 32 bit 
+system, you should pick the 64-bit version of the operating system, for example, Windows[64-bit]. Currently the highest version of Canopy is 3.5. 
 
 3. The download may take a while since the file is fairly large. Once the download 
 completes, go to your `Downloads` directory and you should see a file called `canopy-2.1.3.win-x86_64-cp35`
-(keep in mind that the numbers in the name might be slightly different if the version
-number is different. <br>
+(keep in mind that the name  might be slightly different depending on the operating system
+and the version number. <br>
 Double click on that file to run the installer. (There is a chance that Windows will ask you 
 if you want to run the installed right after the download completes. If that is the case, you do not
 need to find the file and run it yourself.)
