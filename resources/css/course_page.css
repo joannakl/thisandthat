@@ -163,9 +163,9 @@ figure {
   color: #AAAAAA;
 }
 .highlight {
-  margin: 0em 1em 0em 1em;
-  padding: 0px;
-  background-color: #333;
+  margin: 0px;
+  padding: 0.5em;
+  background-color: #d6d6d6;
 }
 .bash {
   color: #AAAAAA;
