@@ -165,7 +165,8 @@ figure {
 .highlight {
   margin: 0px;
   padding: 0.5em;
-  background-color: #f8f8f2;
+  background-color: #272822;
+  color: #f8f8f2 ;
 }
 .bash {
   color: #AAAAAA;
