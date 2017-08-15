@@ -39,7 +39,8 @@ may take a bit of extra time.
 
 5. You should be looking at the following window once Canopy starts:
 
-<img src="{{site.baseurl}}/resources/figures/canopy/initial_screen.png" name="Initil Screen" border="0px" width="500px"> 
+    <img src="{{site.baseurl}}/resources/figures/canopy/initial_screen.png" name="Initil Screen" border="0px" width="500px"> 
+    
 Before starting to code, we will make sure that all the Python packages are up to date
 and we will install some additional packages needed to produce plots and graphs. 
 6. Select *Package Manager* from he above screen. Pick *Updates* from the menu on the 
@@ -47,7 +48,7 @@ left hand side. The number next to it, indicates the number of packages that can
 Click on the *Upgrade all packages* link (shown with a blue background in the image below)
 and accept the list of packages to be upgraded when prompted. 
 
-<img src="{{site.baseurl}}/resources/figures/canopy/update_packages.png" name="Update Packages" border="0px" width="650px"> 
+    <img src="{{site.baseurl}}/resources/figures/canopy/update_packages.png" name="Update Packages" border="0px" width="650px"> 
 7. Don't leave the *Package Manager* just yet. Pick *Available* from the menu on the left hand side. Use the search window (upper right corner) and search for "pyqt". Select
 the package in the list of results and click *Install* (the button on a  blue background). 
 8. Now close the *Package Manager* and open the *Editor* to run the test program. 
@@ -57,22 +58,21 @@ the package in the list of results and click *Install* (the button on a  blue ba
     name of the file as `test1.py` - note that the extension **`.py`** is very important here!
     - Paste the following text as the content of the file. Make sure that you copy the text
     exactly
-    
-```python
-import matplotlib.pyplot as plt
-from numpy import  arange, sin, cos, pi
+        ```python
+        import matplotlib.pyplot as plt
+        from numpy import  arange, sin, cos, pi
 
-x = arange(0, 2*pi, 0.1)
-y1 = sin(x)
-y2 = cos(x)
+        x = arange(0, 2*pi, 0.1)
+        y1 = sin(x)
+        y2 = cos(x)
 
-plt.plot(x,y1,'r')
-plt.plot(x,y2,'b')
+        plt.plot(x,y1,'r')
+        plt.plot(x,y2,'b')
 
-plt.grid(True)
+        plt.grid(True)
 
-plt.show() 
-```
+        plt.show() 
+        ```
 
     - Run the program by either selecting from the menu *Run* followed by *Run File* or 
     clicking on the green arrow icon labeled *Run the current file* in the toolbar. 
