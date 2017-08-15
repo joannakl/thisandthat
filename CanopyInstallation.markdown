@@ -60,21 +60,21 @@ the package in the list of results and click *Install* (the button on a  blue ba
     name of the file as `test1.py` - note that the extension **`.py`** is very important here!
     - Paste the following text as the content of the file. Make sure that you copy the text
     exactly and that there is no white spaces at the beginning of the lines in the code editor. 
-            ```python
-            import matplotlib.pyplot as plt
-            from numpy import  arange, sin, cos, pi
+        ```python
+        import matplotlib.pyplot as plt
+        from numpy import  arange, sin, cos, pi
 
-            x = arange(0, 2*pi, 0.1)
-            y1 = sin(x)
-            y2 = cos(x)
+        x = arange(0, 2*pi, 0.1)
+        y1 = sin(x)
+        y2 = cos(x)
 
-            plt.plot(x,y1,'r')
-            plt.plot(x,y2,'b')
+        plt.plot(x,y1,'r')
+        plt.plot(x,y2,'b')
 
-            plt.grid(True)
+        plt.grid(True)
 
-            plt.show() 
-            ```
+        plt.show() 
+        ```
 
     - Run the program by either selecting from the menu *Run* followed by *Run File* or 
     clicking on the green arrow icon labeled *Run the current file* in the toolbar. 
