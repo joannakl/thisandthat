@@ -2,6 +2,12 @@
 layout: default 
 ---
 
+# Canopy IDE for Python
+--- 
+
+- [Canopy Installation]({{ site.baseurl }}/CanopyInstallation.html) 
+
+
 # Eclipse 
 --- 
 
