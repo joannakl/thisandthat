@@ -62,6 +62,7 @@ the package in the list of results and click *Install* (the button on a  blue ba
     exactly and that there is no white spaces at the beginning of the lines in the code editor. 
     
       ```python
+      
       import matplotlib.pyplot as plt
       from numpy import  arange, sin, cos, pi
 
@@ -75,6 +76,7 @@ the package in the list of results and click *Install* (the button on a  blue ba
       plt.grid(True)
 
       plt.show() 
+      
       ```
 
     - Run the program by either selecting from the menu *Run* followed by *Run File* or 
