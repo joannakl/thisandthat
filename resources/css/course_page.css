@@ -161,6 +161,8 @@ code {
 }
 .highlight {
   background: #F5EFFF;
+  margin: 1em;
+  padding: 1em;
 }
 .highlight .c {
   color: #999988;
