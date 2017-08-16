@@ -150,15 +150,15 @@ footer {
 /* from Joe 
 
 
-code {
-	margin:1empx;
-	padding:1em;
-}
 
 .bash {
 	color:#AAAAAA;
 }
 */
+code {
+  margin: 0;
+  padding: 1em;
+}
 .highlight {
   background: #F5EFFF;
 }
