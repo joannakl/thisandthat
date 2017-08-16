@@ -149,19 +149,19 @@ footer {
 /******************************************/
 /* from Joe 
 
+code {
+	margin:1em;
+	padding:1em;
+}
 
 
 .bash {
 	color:#AAAAAA;
 }
 */
-code {
-  margin: 1em;
-  padding: 1em;
-}
 .highlight {
   background: #F5EFFF;
-  margin: 1em;
+  margin: 0em;
   padding: 1em;
 }
 .highlight .c {
