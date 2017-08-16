@@ -159,14 +159,14 @@ code {
 	color:#AAAAAA;
 }
 */
-/* Solarized Light 
+/* Solarized Dark 
 For use with Jekyll and Pygments
 http://ethanschoonover.com/solarized
 SOLARIZED HEX      ROLE
 --------- -------- ------------------------------------------
-base01    #586e75  body text / default code / primary content
-base1     #93a1a1  comments / secondary content
-base3     #fdf6e3  background
+base03    #002b36  background
+base01    #586e75  comments / secondary content
+base1     #93a1a1  body text / default code / primary content
 orange    #cb4b16  constants
 red       #dc322f  regex, special keywords
 blue      #268bd2  reserved keywords
@@ -174,23 +174,23 @@ cyan      #2aa198  strings, numbers
 green     #859900  operators, other keywords
 */
 .highlight {
-  background-color: #fdf6e3;
-  color: #586e75;
+  background-color: #002b36;
+  color: #93a1a1;
 }
 .highlight .lineno {
-  color: #93a1a1;
+  color: #586e75;
 }
 /* Line Numbers */
 .highlight .c {
-  color: #93a1a1;
+  color: #586e75;
 }
 /* Comment */
 .highlight .err {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Error */
 .highlight .g {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Generic */
 .highlight .k {
@@ -198,11 +198,11 @@ green     #859900  operators, other keywords
 }
 /* Keyword */
 .highlight .l {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Literal */
 .highlight .n {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Name */
 .highlight .o {
@@ -214,11 +214,11 @@ green     #859900  operators, other keywords
 }
 /* Other */
 .highlight .p {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Punctuation */
 .highlight .cm {
-  color: #93a1a1;
+  color: #586e75;
 }
 /* Comment.Multiline */
 .highlight .cp {
@@ -226,7 +226,7 @@ green     #859900  operators, other keywords
 }
 /* Comment.Preproc */
 .highlight .c1 {
-  color: #93a1a1;
+  color: #586e75;
 }
 /* Comment.Single */
 .highlight .cs {
@@ -238,7 +238,7 @@ green     #859900  operators, other keywords
 }
 /* Generic.Deleted */
 .highlight .ge {
-  color: #586e75;
+  color: #93a1a1;
   font-style: italic;
 }
 /* Generic.Emph */
@@ -255,15 +255,15 @@ green     #859900  operators, other keywords
 }
 /* Generic.Inserted */
 .highlight .go {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Generic.Output */
 .highlight .gp {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Generic.Prompt */
 .highlight .gs {
-  color: #586e75;
+  color: #93a1a1;
   font-weight: bold;
 }
 /* Generic.Strong */
@@ -272,7 +272,7 @@ green     #859900  operators, other keywords
 }
 /* Generic.Subheading */
 .highlight .gt {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Generic.Traceback */
 .highlight .kc {
@@ -300,7 +300,7 @@ green     #859900  operators, other keywords
 }
 /* Keyword.Type */
 .highlight .ld {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Literal.Date */
 .highlight .m {
@@ -312,7 +312,7 @@ green     #859900  operators, other keywords
 }
 /* Literal.String */
 .highlight .na {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Name.Attribute */
 .highlight .nb {
@@ -344,19 +344,19 @@ green     #859900  operators, other keywords
 }
 /* Name.Function */
 .highlight .nl {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Name.Label */
 .highlight .nn {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Name.Namespace */
 .highlight .nx {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Name.Other */
 .highlight .py {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Name.Property */
 .highlight .nt {
@@ -372,7 +372,7 @@ green     #859900  operators, other keywords
 }
 /* Operator.Word */
 .highlight .w {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Text.Whitespace */
 .highlight .mf {
@@ -392,7 +392,7 @@ green     #859900  operators, other keywords
 }
 /* Literal.Number.Oct */
 .highlight .sb {
-  color: #93a1a1;
+  color: #586e75;
 }
 /* Literal.String.Backtick */
 .highlight .sc {
@@ -400,7 +400,7 @@ green     #859900  operators, other keywords
 }
 /* Literal.String.Char */
 .highlight .sd {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Literal.String.Doc */
 .highlight .s2 {
@@ -412,7 +412,7 @@ green     #859900  operators, other keywords
 }
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #586e75;
+  color: #93a1a1;
 }
 /* Literal.String.Heredoc */
 .highlight .si {
