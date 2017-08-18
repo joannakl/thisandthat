@@ -27,8 +27,9 @@ system, you should pick the 64-bit version of the operating system, for example,
 completes, go to your `Downloads` directory and you should see a file called `canopy-2.1.3.win-x86_64-cp35`
 (keep in mind that the name  might be slightly different depending on the operating system
 and the version number. <br>
-Double click on that file to run the installer. (There is a chance that Windows will ask you 
-if you want to run the installed right after the download completes. If that is the case, you do not
+Double click on that file to run the installer. (There is a chance that your operating system
+will ask you 
+if you want to run the installer right after the download completes. If that is the case, you do not
 need to find the file and run it yourself.)
 
 4. You can now run Canopy. To start it go to your application menu or use the 
@@ -40,17 +41,20 @@ may take a bit of extra time.
 
     <img src="{{site.baseurl}}/resources/figures/canopy/initial_screen.png" name="Initil Screen" border="0px" width="300px"> 
     
-    Before starting to code, we will make sure that all the Python packages are up to date
-    and we will install some additional packages needed to produce plots and graphs.
+
+# Updateing and adding packages 
+    
+Before starting to code, we will make sure that all the Python packages are up to date
+and we will install some additional packages needed to produce plots and graphs.
  
-6. Select *Package Manager* from he above screen. Pick *Updates* from the menu on the 
+1. Select *Package Manager* from he above screen. Pick *Updates* from the menu on the 
 left hand side. The number next to it, indicates the number of packages that can be updated.
 Click on the *Upgrade all packages* link (shown with a blue background in the image below)
 and accept the list of packages to be upgraded when prompted. 
 
     <img src="{{site.baseurl}}/resources/figures/canopy/update_packages.png" name="Update Packages" border="0px" width="400px"> 
     
-7. Don't leave the *Package Manager* just yet. Pick *Available* from the menu on the left hand side. Use the search window (upper right corner) and search for "pyqt". Select
+2. Don't leave the *Package Manager* just yet. Pick *Available* from the menu on the left hand side. Use the search window (upper right corner) and search for "pyqt". Select
 the package in the list of results and click *Install* (the button on a  blue background). 
 
 8. Now close the *Package Manager* and open the *Editor* to run the test program. 
