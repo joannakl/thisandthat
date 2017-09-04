@@ -54,8 +54,8 @@ and accept the list of packages to be upgraded when prompted.
 
     <img src="{{site.baseurl}}/resources/figures/canopy/update_packages.png" name="Update Packages" border="0px" width="400px"> 
     
-2. Don't leave the *Package Manager* just yet. Pick *Available* from the menu on the left hand side. Use the search window (upper right corner) and search for "pyqt". Select
-the package in the list of results and click *Install* (the button on a  blue background). 
+2. Don't leave the *Package Manager* just yet. Pick *Available* from the menu on the left hand side. Use the search window (upper right corner) and search for "qt". For each of the packages listed in the results, select
+the package name and click *Install* (the button on a  blue background below). 
 
 # Running your first test program 
 
