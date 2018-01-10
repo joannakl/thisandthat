@@ -32,8 +32,20 @@ layout: default
 - dsada
 
 # Programming in Java
-- [Object-Oriented programming with Java, part I](http://mooc.fi/courses/2013/programming-part-1/) 
-- [Object-Oriented programming with Java, part II](http://mooc.fi/courses/2013/programming-part-2/) 
+
+- if you already know Python: 
+    - [Java for Python programmers](http://interactivepython.org/runestone/static/java4python/index.html) 
+    - another [Java for Python programmers](https://education.launchcode.org/skills-back-end-java/java4python/) 
+
+- open books teaching Java from scratch:
+    - [Think Java: How To Think Like a Computer Scientist](https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=285)
+     by Chris Mayfield and Allen Downey
+    - [Java, Java, Java: Object Oriented Problem Solving](https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=218)
+     by Ralph Morelli and Ralph Walde
+
+- an online course teaching Java from scratch: 
+    - [Object-Oriented programming with Java, part I](http://mooc.fi/courses/2013/programming-part-1/) 
+    - [Object-Oriented programming with Java, part II](http://mooc.fi/courses/2013/programming-part-2/) 
 
 # Programming in C 
 --- 
